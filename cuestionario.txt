@@ -1,0 +1,21 @@
+Con toda la mesa de trabajo debatan sobre las siguientes preguntas y contesten en conjunto: 
+
+
+    ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+
+	R: Dependiendo del tipo de lenguaje de programacion, si es compilado o interpretado este se podrá utilizar en determinado SO (dado por el compilador o ejecutable) esto incluso puede variar entre las mismas versiones del SO, como es el caso de Windows 32/64 bits; o bien se podra correr en cualquier SO como en el caso de los interpretados ya que la mayoria de los sistemas operativos soportan dichos lenguajes y hay disponibilidad de librerias para ello. 
+
+
+    ¿Qué tipo de máquina virtual soporta virtualBox?. 
+
+	R: VirtualBox soporta virtualizacion tanto de software como hardware. A su vez tambien es compatible con distintos sistemas operativos como Windows, Linux, MacOS, entre otros. 
+
+
+    ¿Qué función cumple el hypervisor en la virtualización?
+
+	R: Permite crear y ejecutar la VM, además aisla al sistema operativo y recursos de la maquina virtual y permite crearlas y gestionarlas. 
+
+
+    Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+	R: No, ya que las maquinas virtuales (de procesos) funcionan en un mismo servidor que las ejecuta en instancias separadas dentro de la misma aplicacion. 
